@@ -1,0 +1,41 @@
+*{box-sizing:border-box; padding:0; margin:0}
+body{background-color:white}
+div.cabecera{width:51%; height:150px; background-color:#900C3F; margin:auto}
+div.m1{width:30%;height:150px; float:left; background-color:white;margin:auto}
+div.m2{width:70%; height:150px;float:left;font-size:2.5em; text-align:center; padding:2.5%}
+img.valle{width:100%; height:150px; float: left}
+h1.textocabecera{}
+div.cuerpo{width:51%; height:70px; background-color:black; margin:auto; font-size:1.7em}
+div.menu{width:51%; height:60px;background-color:#333DFF;margin:auto}
+div.t1{width:25%;height:60px; float:left; text-align:center; line-height:50px; font-size:1.5em;border:2px solid black;}
+div.t1,a{text-decoration:none; color:black}
+div.t1:hover{background-color:#900C3F; }
+h1.textotablas{color:white; text-align:center; }
+div.tablas{width:51%;background-color:#900C3F; margin:auto;}
+div.tablasestadio{width:51%;background-color:#900C3F; margin:auto;height:550px}
+div.parrafo{width:250px;text-align:center; border:2px solid #333DFF; margin:auto}
+div.parrafo p{color:white}
+table.tabla1, th, td{width:50%;height:70px;color:white;border: 2px solid red; border-collapse:collapse; border-color:#333DFF; padding:2%; margin-top:55px; margin-left:25%}
+div.piedepag{background-color:#333DFF;width:51%; height:80px; margin:auto; padding:1%;clear:both}
+div.piedepag, h1{text-align:center;color;white }
+p.textohistoria{font-size:1.5em; text-align: justify; line-height:30px; padding:40px }
+p.messi{text-align:justify; padding: 10px; font-size:1.5em}
+img.fotomessi{width:15%; height:25%; margin-left:50px; margin-left: 15%}
+img.fotomessi2{width:30%; height:55%; max-width:100%}
+img.fotomessi3{width:22.5%; height:30%;}
+iframe.videomessi{width:300px ;height:150px; margin-left:33%; margin-top:10px}
+div.scroll{overflow:scroll;float:right; background-color:white; padding:21px; height:500px; }
+div.scroll h3{text-align:center; background-color:#900C3F; margin:0px}
+div.scroll ul li{font-size:1.1em}
+img.fotoequipo{height:200px; width:380px; margin-left:20px}
+img.fotoestadio{width:60%; height:75%; margin-left:5%; margin-top:5%}
+p.textoestadio{font-size:1.5em; text-align: justify; line-height:30px; margin-right:400px }
+.copaeuropa{text-align:center}
+img.copaeuropa{width:100%; height:250%}
+
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+ div.t1{width:100%;
+}
+}
